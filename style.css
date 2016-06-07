@@ -27,24 +27,32 @@
 .navbar-toggle{
 	background-color: #8F7A89;
 }
+/*CAROUSEL*/
+.carousel-caption a{
+	color: #fff;
+	text-shadow: 2px 2px 3px #000000;
+}
 /*HOME*/
 .thumbnail{
 	background-color: #171717;
 	border: 1px solid #171717;
 }
 /*BLOG*/
+.row{
+	margin-top: 5px;
+}
 .blog-element a{
 	color: #FEF9E6;
 	letter-spacing: 1px;
 	font-size: 14px;
 }
 .bgcolor{
-	background-color: #8F7A89;
+	background-color: #171717;
 
 }
 .text-format a{
-	border: 1px solid #8F7A89;
-	color: #8F7A89;
+	border: 1px solid #171717;
+	color: #171717;
 }
 .text-format a:hover{
 	background-color: #8F7A89
