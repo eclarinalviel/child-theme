@@ -1,0 +1,65 @@
+/*
+ Theme Name:   Customized Theme Child
+ Description:  Black and White Responsive Theme
+ Author:       eclarinalviel
+ Author URI:   http://example.com
+ Template:     my-theme
+ Version:      1.0.0
+ Tags:         black, white, responsive
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*@import url("../my-theme/style.css");*/
+
+/*NAVIGATION*/
+.nav-container{
+	background-color: #fff;
+	border: 1px solid #171717;
+}
+.nav-container a{
+	color: #171717;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.navbar-toggle{
+	background-color: #8F7A89;
+}
+/*HOME*/
+.thumbnail{
+	background-color: #171717;
+	border: 1px solid #171717;
+}
+/*BLOG*/
+.blog-element a{
+	color: #FEF9E6;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.bgcolor{
+	background-color: #8F7A89;
+
+}
+.text-format a{
+	border: 1px solid #8F7A89;
+	color: #8F7A89;
+}
+.text-format a:hover{
+	background-color: #8F7A89
+	color: #FEF9E6;
+}
+.pull-right img{
+	margin: 30px 20px 0px 0px;
+}
+.form-submit #submit{
+	background-color: #8F7A89
+	color: #FEF9E6;
+}
+/*FOOTER*/
+.footer-distributed a{
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
