@@ -26,8 +26,8 @@ p{
 	letter-spacing: 1px;
 }
 .nav>li>a:focus, .nav>li>a:hover{
-	background-color: #DFCCBE;
-	color: #7C6958;
+	background-color: #A53831;
+	color: #DFCCBE;
 }
 .navbar-toggle{
 	background-color: #40332D;
@@ -59,6 +59,16 @@ form .txt-search{
 	text-shadow: 2px 2px 3px #000000;
 }
 /*HOME*/
+.entry-header h1 a{
+	color: #A53831;
+}
+.entry-header h1 a:hover{
+	color: #7C6958;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 .thumbnail{
 	background-color: #7C6958;
 	border: 1px solid #7C6958;
