@@ -12,20 +12,46 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
-/*@import url("../my-theme/style.css");*/
-
+p{
+	color: #7C6958;
+}
 /*NAVIGATION*/
 .nav-container{
-	background-color: #fff;
-	border: 1px solid #171717;
+	background-color: #BAA586;
+	border: 1px solid #BAA586;
 }
 .nav-container a{
-	color: #171717;
+	color: #40332D;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #DFCCBE;
+	color: #7C6958;
+}
 .navbar-toggle{
-	background-color: #8F7A89;
+	background-color: #40332D;
+}
+/*SIDEBAR*/
+form .txt-search{
+	border: 1px solid #BAA586;
+}
+.widgettitle{
+	color: #40332D;
+}
+.widgets-area a{
+	color: #7C6958;
+}
+.widgets-area ul li{
+	
+	border-bottom: 1px dashed #BAA586;
+}
+.widgets-area a:hover{
+	color: #A53831;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 /*CAROUSEL*/
 .carousel-caption a{
@@ -34,8 +60,8 @@
 }
 /*HOME*/
 .thumbnail{
-	background-color: #171717;
-	border: 1px solid #171717;
+	background-color: #7C6958;
+	border: 1px solid #7C6958;
 }
 /*BLOG*/
 .row{
@@ -44,19 +70,26 @@
 .blog-element a{
 	color: #FEF9E6;
 	letter-spacing: 1px;
-	font-size: 14px;
+	font-size: 16px;
+	text-shadow: 2px 2px 3px #000000;
+}
+.blog-element a:hover{
+	color: #A53831;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .bgcolor{
-	background-color: #171717;
-
+	background-color: #40332D;
 }
 .text-format a{
-	border: 1px solid #171717;
-	color: #171717;
+	border: 1px solid #7C6958;
+	color: #7C6958;
 }
 .text-format a:hover{
-	background-color: #8F7A89
-	color: #FEF9E6;
+	background-color: #7C6958;
+	color: #BAA588;
 }
 .pull-right img{
 	margin: 30px 20px 0px 0px;
@@ -66,8 +99,30 @@
 	color: #FEF9E6;
 }
 /*FOOTER*/
+.footer-distributed{
+	background-color: #40332D;
+}
 .footer-distributed a{
+	color: #DFCCBE;
 	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+}
+.footer-distributed h4{
+	color: #DFCCBE;	
+}
+.footer-distributed .footer-center p{
+	color: #DFCCBE;	
+}
+.footer-distributed .footer-company-about span{
+	color: #DFCCBE;	
+}
+.footer-distributed .footer-center p a{
+	color: #DFCCBE;	
+}
+
+@media (max-width: 880px) {
+	.row{
+		margin-top: 0px;
+	}
 }
